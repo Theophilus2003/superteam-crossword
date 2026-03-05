@@ -1,0 +1,35 @@
+{
+  "name": "superteam-crossword",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version"]
+  }
+}
+```
+
+Scroll down → click **"Commit changes"** → **"Commit changes"** again.
+
+---
+
+**Step 3 — Also check you have these files in your repo**
+
+Your repo should have this structure:
+```
+superteam-crossword/
+├── package.json        ← just created
+├── public/
+│   └── index.html      ← needed!
+└── src/
+    ├── index.js        ← needed!
+    └── App.jsx         ← your game
